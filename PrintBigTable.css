@@ -1,0 +1,88 @@
+@media print {
+    div {
+        page-break-after: avoid !important;
+    }
+
+    table {
+        page-break-inside: auto !important;
+    }
+
+    th {
+        page-break-before: avoid !important;
+    }
+
+    tr {
+        page-break-inside: avoid !important;
+        page-break-after: auto !important;
+    }
+
+    thead {
+        display: table-header-group !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .page-title {
+        font-size: 24px !important;
+        margin-bottom: 8px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pull-l {
+        float: left !important;
+    }
+}
+@media (max-width: 768px) {
+    .marg-t {
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+    }
+}
+
+.table-sticky {
+    border-collapse: separate;
+    background: white;
+}
+
+.col-sticky {
+    background: white;
+}
+
+.table-sticky .col-sticky {
+    left: -20px;
+    position: sticky;
+}
+
+#top-scroller-funds-overview {
+    height: 2px;
+    width: 1780px;
+}
+
+.page-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.table-condensed {
+    background: white;
+}
+
+.checkbox-funds-list {
+    appearance:none;
+    width:24px;
+    height:24px;
+    background: white;
+    border-radius:2px;
+    border:1px solid blue;
+}
+.checkbox-funds-list:checked {
+    background: blue;
+}
+.btn-default,
+.btn-link,
+.btn-primary {
+    white-space: normal !important;
+    min-width: 109px !important;
+}

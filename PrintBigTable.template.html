@@ -1,0 +1,144 @@
+<div print-section>
+    <div class="row margin-t-16 margin-b-16" print-remove>
+        <div class="col col-xs-12">
+            <button class="btn btn-primary margin-r-8 margin-t-4" ng-click="print()" translate>
+                Print
+            </button>
+        </div>
+    </div>
+
+    <div class="row margin-b-16 margin-t-16">
+        <div class="col-md-12">
+            <div id="portfolio_card" class="c ">
+                <div class="item-title black-text">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <span translate> All Active funds </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- MAIN TABLE - ACTIVE FUNDS -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div id="wrapperTop" style="overflow-x: scroll !important;" print-remove>
+                            <div id="top-scroller-funds-overview"></div>
+                        </div>
+                        <div id="wrapperBottom" class="item-body" style="overflow: auto !important;">
+                            <table class="table table-bordered table-hover text-center table-sticky">
+                                <thead>
+                                    <tr>
+                                        <th class="tableTile col-md-1 col-sticky" translate>
+                                            col 1
+                                        </th>
+                                        <th class="tableTile col-md-1" translate>col 2</th>
+                                        <th class="tableTile col-md-1" translate>
+                                            col 3
+                                        </th>
+                                        <th class="tableTile col-md-1" translate>col 4</th>
+                                        <th class="tableTile col-md-1" translate>col 5</th>
+                                        <th class="tableTile col-md-1">col 6</th>
+                                        <th class="tableTile col-md-1">
+                                            col 7
+                                        </th>
+                                        <th class="tableTile col-md-1">col 8</th>
+                                        <th class="tableTile col-md-1">col 9</th>
+                                        <th class="tableTile col-md-1" translate>
+                                            col 10
+                                        </th>
+                                        <th class="tableTile col-md-1" translate>col 11</th>
+                                        <th class="tableTile col-md-1" translate>col 12</th>
+                                        <th class="tableTile col-md-1" translate>
+                                            col 13
+                                        </th>
+                                        <th class="tableTile col-md-1" translate>col 14</th>
+                                        <th class="tableTile col-md-1" translate>col 15</th>
+                                        <th class="tableTile col-md-1" translate>
+                                            col 16
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="test in tests"
+                                        ng-class="{'selected': asd.asd(asd,asd.asd) ? true : false}">
+
+                                        <td class="col-sticky vertical-align clickable">
+                                            <a ng-href="{{ asd(asd, $root.lang) }}" target="_blank">
+                                                <span>col 1</span>
+                                            </a>
+                                        </td>
+
+                                        <td class="vertical-align text-m">
+                                            col 2
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 3
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap brand-2">
+                                            <a ng-href="{{
+                                            FundsLogic.getVniURL(fund.fundCodeField, $root.lang)
+                                            }}" target="_blank">
+                                                <span class="brand-2">{{
+                                            col 4
+                                            }}</span>
+                                            </a>
+                                        </td>
+
+                                        <td class="vertical-align text-m">
+                                            col 5
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap text-center">
+                                            col 6
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 7
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 8
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 9
+                                        </td>
+
+                                        <td class="vertical-align text-m">
+                                            col 10
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 11
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 12
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 13
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 14
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 15
+                                        </td>
+
+                                        <td class="vertical-align text-m text-nowrap">
+                                            col 16
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
